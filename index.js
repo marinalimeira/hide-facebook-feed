@@ -1,9 +1,6 @@
-var self = require('sdk/self');
+var pageMod = require("sdk/page-mod");
 
-// a dummy function, to show how tests work.
-// to see how to test this function, look at test/test-index.js
-function dummy(text, callback) {
-  callback(text);
-}
-
-exports.dummy = dummy;
+pageMod.PageMod({
+  include: "www.facebook.com",
+  contentScript: 'document.getElementById("topnews_main_stream_408239535924329").style.display="none";'
+});

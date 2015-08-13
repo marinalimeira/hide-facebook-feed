@@ -1,7 +1,7 @@
 {
   "title": "Hide Facebook Feed",
   "name": "hide-facebook-feed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hide all feed content from your facebook's home page.",
   "main": "index.js",
   "author": "Marina Limeira",

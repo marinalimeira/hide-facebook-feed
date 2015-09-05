@@ -4,7 +4,7 @@
   "version": "0.0.3",
   "description": "Hide all feed content from your facebook's home page.",
   "main": "index.js",
-  "author": "Marina Limeira",
+  "author": "Caio Oliveira, Ivomar Santos, Marina Limeira",
   "engines": {
     "firefox": ">=38.0a1"
   },
